@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a03b3989e75624785358c77627786f, type: 3}
+  m_Name: Deco 0
+  m_EditorClassIdentifier: 
+  ID: DECO00
+  texture: {fileID: 2800000, guid: 36a9599705fb5a64da5edade09856e77, type: 3}
+  texturesSecondary:
+  - {fileID: 2800000, guid: 0e74c2918ec0c324381254245bbec4aa, type: 3}
+  countX: 4
+  countY: 4
+  maxPixelWidth: 0
+  maxPixelHeight: 0
+  transparency: 0
+  noiseStrength: 0
+  noiseScale: 1
+  texAtlasIdx: 0
+  flags: 1
+  neighbourFlags: 1
+  composition:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  generateCollider: 1
+  tags: []
+  variables:
+    objects: []
+    serialized: []
+  Shelf: 02_Marlin_Deco
+  rect:
+    serializedVersion: 2
+    x: 0.12939453
+    y: 0.89404297
+    width: 0.0625
+    height: 0.0625
+  pos:
+  - {x: 0.12939453, y: 0.94091797}
+  - {x: 0.14501953, y: 0.94091797}
+  - {x: 0.16064453, y: 0.94091797}
+  - {x: 0.17626953, y: 0.94091797}
+  - {x: 0.12939453, y: 0.92529297}
+  - {x: 0.14501953, y: 0.92529297}
+  - {x: 0.16064453, y: 0.92529297}
+  - {x: 0.17626953, y: 0.92529297}
+  - {x: 0.12939453, y: 0.90966797}
+  - {x: 0.14501953, y: 0.90966797}
+  - {x: 0.16064453, y: 0.90966797}
+  - {x: 0.17626953, y: 0.90966797}
+  - {x: 0.12939453, y: 0.89404297}
+  - {x: 0.14501953, y: 0.89404297}
+  - {x: 0.16064453, y: 0.89404297}
+  - {x: 0.17626953, y: 0.89404297}
+  size:
+  - {x: 0.015625, y: 0.015625}
+  - {x: 0.015625, y: 0.015625}
+  - {x: 0.015625, y: 0.015625}
+  - {x: 0.015625, y: 0.015625}
+  - {x: 0.015625, y: 0.015625}
+  - {x: 0.015625, y: 0.015625}
+  - {x: 0.015625, y: 0.015625}
+  - {x: 0.015625, y: 0.015625}
+  - {x: 0.015625, y: 0.015625}
+  - {x: 0.015625, y: 0.015625}
+  - {x: 0.015625, y: 0.015625}
+  - {x: 0.015625, y: 0.015625}
+  - {x: 0.015625, y: 0.015625}
+  - {x: 0.015625, y: 0.015625}
+  - {x: 0.015625, y: 0.015625}
+  - {x: 0.015625, y: 0.015625}

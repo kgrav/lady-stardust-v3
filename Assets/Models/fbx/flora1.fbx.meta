@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: 109e1047ae83697428cc8c4d43f87d64
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -5104975475595454825
+    second: _flora|a.air_fall
+  - first:
+      74: 8241542180819425905
+    second: _flora|a.Idle
+  - first:
+      74: -6032544704067832565
+    second: _flora|a.Interact
+  - first:
+      74: 6106414742470845786
+    second: _flora|a.jump
+  - first:
+      74: -2557020680828409742
+    second: _flora|a.jump_rise
+  - first:
+      74: -4254134127398744055
+    second: _flora|a.run
+  - first:
+      74: -1017234345418031081
+    second: _flora|a.slide
+  - first:
+      74: 579389910161534929
+    second: _flora|a.slide jump
+  - first:
+      74: -5540502646929974223
+    second: _flora|a.slidejumpland
+  - first:
+      74: 8350228020567787195
+    second: _flora|a.SwordRun.002
+  - first:
+      74: -6550016102281748220
+    second: _flora|a.SwordWalk
+  - first:
+      74: 1687894792884400868
+    second: _flora|a.SwordRun
+  - first:
+      74: -348580354138155250
+    second: _flora|a.SwordRun.001
+  - first:
+      74: -7912057339847653008
+    second: _flora|a.UnarmedWalk
+  - first:
+      74: 4354717572146046053
+    second: _flora|Action
+  - first:
+      74: 8463380476609271925
+    second: _flora|faceAction
+  - first:
+      74: -8867456344194198418
+    second: _flora|PoseLib
+  - first:
+      74: 1072230738205897943
+    second: _flora|raw.Idle
+  - first:
+      74: 4556520974621842263
+    second: sword|faceAction
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

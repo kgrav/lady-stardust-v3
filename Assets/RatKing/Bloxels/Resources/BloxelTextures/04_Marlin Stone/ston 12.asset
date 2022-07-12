@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a03b3989e75624785358c77627786f, type: 3}
+  m_Name: ston 12
+  m_EditorClassIdentifier: 
+  ID: STONE13
+  texture: {fileID: 2800000, guid: 468f96a0dfd393f449b64fa4f67c8a3a, type: 3}
+  texturesSecondary: []
+  countX: 3
+  countY: 3
+  maxPixelWidth: 0
+  maxPixelHeight: 0
+  transparency: 0
+  noiseStrength: 0
+  noiseScale: 1
+  texAtlasIdx: 0
+  flags: 1
+  neighbourFlags: 1
+  composition:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  generateCollider: 1
+  tags: []
+  variables:
+    objects: []
+    serialized: []
+  Shelf: L-1024
+  rect:
+    serializedVersion: 2
+    x: 0.31982422
+    y: 0.70947266
+    width: 0.0625
+    height: 0.0625
+  pos:
+  - {x: 0.31982422, y: 0.75113934}
+  - {x: 0.34065756, y: 0.75113934}
+  - {x: 0.36149088, y: 0.75113934}
+  - {x: 0.31982422, y: 0.73030597}
+  - {x: 0.34065756, y: 0.73030597}
+  - {x: 0.36149088, y: 0.73030597}
+  - {x: 0.31982422, y: 0.70947266}
+  - {x: 0.34065756, y: 0.70947266}
+  - {x: 0.36149088, y: 0.70947266}
+  size:
+  - {x: 0.020833334, y: 0.020833334}
+  - {x: 0.020833334, y: 0.020833334}
+  - {x: 0.020833334, y: 0.020833334}
+  - {x: 0.020833334, y: 0.020833334}
+  - {x: 0.020833334, y: 0.020833334}
+  - {x: 0.020833334, y: 0.020833334}
+  - {x: 0.020833334, y: 0.020833334}
+  - {x: 0.020833334, y: 0.020833334}
+  - {x: 0.020833334, y: 0.020833334}

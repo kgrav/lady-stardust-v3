@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a03b3989e75624785358c77627786f, type: 3}
+  m_Name: vnl 9
+  m_EditorClassIdentifier: 
+  ID: VINYL_10
+  texture: {fileID: 2800000, guid: 7c89e9713fbf098419dee8cf020fad94, type: 3}
+  texturesSecondary: []
+  countX: 2
+  countY: 2
+  maxPixelWidth: 0
+  maxPixelHeight: 0
+  transparency: 0
+  noiseStrength: 0
+  noiseScale: 1
+  texAtlasIdx: 0
+  flags: 1
+  neighbourFlags: 1
+  composition:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  generateCollider: 1
+  tags: []
+  variables:
+    objects: []
+    serialized: []
+  Shelf: 07_Marlin Vinyl
+  rect:
+    serializedVersion: 2
+    x: 0.4506836
+    y: 0.70947266
+    width: 0.0625
+    height: 0.0625
+  pos:
+  - {x: 0.4506836, y: 0.74072266}
+  - {x: 0.4819336, y: 0.74072266}
+  - {x: 0.4506836, y: 0.70947266}
+  - {x: 0.4819336, y: 0.70947266}
+  size:
+  - {x: 0.03125, y: 0.03125}
+  - {x: 0.03125, y: 0.03125}
+  - {x: 0.03125, y: 0.03125}
+  - {x: 0.03125, y: 0.03125}

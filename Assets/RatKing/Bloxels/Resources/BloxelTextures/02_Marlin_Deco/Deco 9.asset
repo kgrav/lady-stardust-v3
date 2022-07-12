@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a03b3989e75624785358c77627786f, type: 3}
+  m_Name: Deco 9
+  m_EditorClassIdentifier: 
+  ID: DECO09
+  texture: {fileID: 2800000, guid: 6ac00f76433c112409d3b08b2001800e, type: 3}
+  texturesSecondary:
+  - {fileID: 2800000, guid: 41675cc5520b1ae4bae5243da211fa7a, type: 3}
+  countX: 1
+  countY: 1
+  maxPixelWidth: 0
+  maxPixelHeight: 0
+  transparency: 0
+  noiseStrength: 0
+  noiseScale: 1
+  texAtlasIdx: 0
+  flags: 1
+  neighbourFlags: 1
+  composition:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  generateCollider: 1
+  tags: []
+  variables:
+    objects: []
+    serialized: []
+  Shelf: 02_Marlin_Deco
+  rect:
+    serializedVersion: 2
+    x: 0.25439453
+    y: 0.64404297
+    width: 0.0625
+    height: 0.0625
+  pos:
+  - {x: 0.25439453, y: 0.64404297}
+  size:
+  - {x: 0.0625, y: 0.0625}

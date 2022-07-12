@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a03b3989e75624785358c77627786f, type: 3}
+  m_Name: A Stones
+  m_EditorClassIdentifier: 
+  ID: TEST_A_STONES
+  texture: {fileID: 2800000, guid: cc07952850c6b1e46b9ba4d30ca03a02, type: 3}
+  texturesSecondary: []
+  countX: 2
+  countY: 2
+  maxPixelWidth: 100
+  maxPixelHeight: 100
+  transparency: 0
+  noiseStrength: 0
+  noiseScale: 1
+  texAtlasIdx: 0
+  flags: 1
+  neighbourFlags: 1
+  composition:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  generateCollider: 1
+  tags: []
+  variables:
+    objects: []
+    serialized: []
+  Shelf: 00_Test
+  rect:
+    serializedVersion: 2
+    x: 0.91552734
+    y: 0.22216797
+    width: 0.024414062
+    height: 0.024414062
+  pos:
+  - {x: 0.91552734, y: 0.234375}
+  - {x: 0.9277344, y: 0.234375}
+  - {x: 0.91552734, y: 0.22216797}
+  - {x: 0.9277344, y: 0.22216797}
+  size:
+  - {x: 0.012207031, y: 0.012207031}
+  - {x: 0.012207031, y: 0.012207031}
+  - {x: 0.012207031, y: 0.012207031}
+  - {x: 0.012207031, y: 0.012207031}

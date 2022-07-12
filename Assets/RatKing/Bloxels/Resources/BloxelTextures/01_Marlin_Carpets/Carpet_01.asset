@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a03b3989e75624785358c77627786f, type: 3}
+  m_Name: Carpet_01
+  m_EditorClassIdentifier: 
+  ID: CARPET_01
+  texture: {fileID: 2800000, guid: a9c3c917e2290fe4f89a6f14bd6d2273, type: 3}
+  texturesSecondary:
+  - {fileID: 2800000, guid: 0830800ee0af86d4399ec18c3eb0e5e1, type: 3}
+  countX: 2
+  countY: 2
+  maxPixelWidth: 0
+  maxPixelHeight: 0
+  transparency: 0
+  noiseStrength: 0
+  noiseScale: 1
+  texAtlasIdx: 0
+  flags: 1
+  neighbourFlags: 1
+  composition:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  generateCollider: 1
+  tags: []
+  variables:
+    objects: []
+    serialized: []
+  Shelf: 01_Marlin_Carpets
+  rect:
+    serializedVersion: 2
+    x: 0.58154297
+    y: 0.5131836
+    width: 0.0625
+    height: 0.0625
+  pos:
+  - {x: 0.58154297, y: 0.5444336}
+  - {x: 0.61279297, y: 0.5444336}
+  - {x: 0.58154297, y: 0.5131836}
+  - {x: 0.61279297, y: 0.5131836}
+  size:
+  - {x: 0.03125, y: 0.03125}
+  - {x: 0.03125, y: 0.03125}
+  - {x: 0.03125, y: 0.03125}
+  - {x: 0.03125, y: 0.03125}

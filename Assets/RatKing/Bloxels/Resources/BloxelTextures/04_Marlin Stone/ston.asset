@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a03b3989e75624785358c77627786f, type: 3}
+  m_Name: ston
+  m_EditorClassIdentifier: 
+  ID: STONE1
+  texture: {fileID: 2800000, guid: 0a6050c97d730454a87f448d6638d5dc, type: 3}
+  texturesSecondary: []
+  countX: 1
+  countY: 1
+  maxPixelWidth: 0
+  maxPixelHeight: 0
+  transparency: 0
+  noiseStrength: 0
+  noiseScale: 1
+  texAtlasIdx: 0
+  flags: 1
+  neighbourFlags: 1
+  composition:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  generateCollider: 1
+  tags: []
+  variables:
+    objects: []
+    serialized: []
+  Shelf: 04_Marlin Stone
+  rect:
+    serializedVersion: 2
+    x: 0.31982422
+    y: 0.5131836
+    width: 0.0625
+    height: 0.0625
+  pos:
+  - {x: 0.31982422, y: 0.5131836}
+  size:
+  - {x: 0.0625, y: 0.0625}

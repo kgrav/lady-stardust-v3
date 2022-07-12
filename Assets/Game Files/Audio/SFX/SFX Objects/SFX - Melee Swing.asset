@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6e22f96f2be07429176dfa1a361d67, type: 3}
+  m_Name: SFX - Melee Swing
+  m_EditorClassIdentifier: 
+  PossibleClips:
+  - {fileID: 8300000, guid: 4b47e2985e2de4f40b536555e2c52341, type: 3}
+  - {fileID: 8300000, guid: d27304e193fd30847a71f6f3c0a7613d, type: 3}
+  PitchRange: {x: 0.8, y: 1.1}

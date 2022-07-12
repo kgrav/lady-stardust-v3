@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a03b3989e75624785358c77627786f, type: 3}
+  m_Name: $MISSING
+  m_EditorClassIdentifier: 
+  ID: $MISSING
+  texture: {fileID: 2164154496189858453}
+  texturesSecondary: []
+  countX: 1
+  countY: 1
+  maxPixelWidth: 0
+  maxPixelHeight: 0
+  transparency: 0
+  noiseStrength: 99999
+  noiseScale: 99999
+  texAtlasIdx: 0
+  flags: 0
+  neighbourFlags: 0
+  composition:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  generateCollider: 1
+  tags: []
+  variables:
+    objects: []
+    serialized: []
+  Shelf: 
+  rect:
+    serializedVersion: 2
+    x: 0.99316406
+    y: 0.015136719
+    width: 0.0036621094
+    height: 0.0036621094
+  pos:
+  - {x: 0.99316406, y: 0.015136719}
+  size:
+  - {x: 0.0036621094, y: 0.0036621094}
+--- !u!28 &2164154496189858453
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: $MISSING Texture
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 15
+  m_Height: 15
+  m_CompleteImageSize: 1136
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 4
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMasterTextureLimit: 0
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 1136
+  _typelessdata: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffffffffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffffffffffffffffffff00ffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffff00ffffffffffffffffffffff00ffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffff00ffffffffffffffffffffffffffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff6dffffff6dffffff6dffffff6dffffff6dffffffffffffff6dffffff95ffffff00ffffff00ffffff00ffffff96ffffff6cffffff6dffffff00ffffffbfffffff00ffffffc0ffffff00ffffff6cffffff6dffffff00ffffff00fffffffdffffff00ffffff00ffffff6cffffff6dffffff00ffffffc0ffffff00ffffffc1ffffff00ffffff6cffffff6dffffff96ffffff00ffffff00ffffff00ffffff96ffffff6cffffffffffffff6cffffff6cffffff6cffffff6cffffff6cffffffffffffff8effffff24ffffff8fffffff24fffffffbffffff23ffffff8effffff23ffffff8efffffffbffff
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 

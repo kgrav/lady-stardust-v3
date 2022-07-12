@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05c187ea917651040b87f6697ca39af3, type: 3}
+  m_Name: hit_sailback
+  m_EditorClassIdentifier: 
+  label: hit_sailback
+  fadeTo: 0.1
+  percentFunctions: []
+  soundClips: []
+  attackData: {fileID: 0}
+  exitTime: 0
+  callbackOnExit: 0
+  loopData: 0

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a03b3989e75624785358c77627786f, type: 3}
+  m_Name: NI 5
+  m_EditorClassIdentifier: 
+  ID: NI5
+  texture: {fileID: 2800000, guid: 94784ebf24f478f40a75868c7134a961, type: 3}
+  texturesSecondary:
+  - {fileID: 2800000, guid: 1128e7fc8e317af4bb7eac87d8b357ce, type: 3}
+  countX: 2
+  countY: 4
+  maxPixelWidth: 0
+  maxPixelHeight: 0
+  transparency: 0
+  noiseStrength: 0
+  noiseScale: 1
+  texAtlasIdx: 1
+  flags: 1
+  neighbourFlags: 1
+  composition:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  generateCollider: 1
+  tags: []
+  variables:
+    objects: []
+    serialized: []
+  Shelf: 30_Normal_Interior
+  rect:
+    serializedVersion: 2
+    x: 0.5234375
+    y: 0.4086914
+    width: 0.2685547
+    height: 0.47998047
+  pos:
+  - {x: 0.5234375, y: 0.76867676}
+  - {x: 0.65771484, y: 0.76867676}
+  - {x: 0.5234375, y: 0.64868164}
+  - {x: 0.65771484, y: 0.64868164}
+  - {x: 0.5234375, y: 0.5286865}
+  - {x: 0.65771484, y: 0.5286865}
+  - {x: 0.5234375, y: 0.4086914}
+  - {x: 0.65771484, y: 0.4086914}
+  size:
+  - {x: 0.13427734, y: 0.11999512}
+  - {x: 0.13427734, y: 0.11999512}
+  - {x: 0.13427734, y: 0.11999512}
+  - {x: 0.13427734, y: 0.11999512}
+  - {x: 0.13427734, y: 0.11999512}
+  - {x: 0.13427734, y: 0.11999512}
+  - {x: 0.13427734, y: 0.11999512}
+  - {x: 0.13427734, y: 0.11999512}

@@ -1,0 +1,97 @@
+version 1.1.2
+- fixed Other Settings not getting loaded when starting Bloed
+- added bloxel chunk size setting
+- fixed potential bug with switching between bloxel rotations via Tab key not working
+- fixed BloxelTypeEditor not updating/saving Block Count
+- fixed error when duplicating joists
+- fixed BloxelLevelSettings standard bloxels not instantly recognized by Recreate Meshes
+- fixed color change on hover for labels
+- fixed Shift+LMB shortcut for changing current BloxelLevel in prefab stage
+
+version 1.1.1
+ - moved settings to EditorPrefs so colors and other settings are saved even when closing Bloed
+ - added grid extents setting
+
+version 1.1
+ - fixed (another) error when trying to build the project as standalone
+ - fixed an issue with wrong asset paths when trying to update bloxel types
+ - fixed errors when adding bloxel types / removing bloxel type rotations
+ - fixed display of new bloxel rotations without updating bloxel types
+ - fixed buttons in the Build menu not updating the scene view
+ - fixed undo not working correctly when placing standard bloxels in grid mode
+ - changed the BLOXER tool to work like the CUBOIDER tool from v1.0 and before
+ - changed the CUBOIDER tool so it allows large scale geometry editing
+
+version 1.0
+ - added support for Unity 2019.4
+ - removed Fill Assets Shelves from menu, should not be needed anyway
+ - fixed potential "overlapping UVs" error when baking lightmaps (use the "Generate Secondary UVs" option!)
+ - fixed "Show Internals" setting for BloxelLevels; now also displays internals of BloxelChunks
+ - removed materials/shader in Resources folder, cursor and markers materials are now generated via code (also for SRPs!)
+ - fixed marker position not updating when in grid mode
+ - renamed "Show Internals" option in project settings to "Show Debug Info/Settings" - also added debug options in Helpers when activated
+ - fixed potential bug with bigger empty rooms where chunks would disappear
+ - added two options to Initialize tab for Pick Distance
+ - changed folder structure, moved changelog to extra document
+
+version 0.8
+ - fixed Unpack button in Build menu when BloxelLevel isn't root of the prefab
+ - fixed problems with creating and deleting new BloxelLevels inside a prefab
+ - added function "Recreate ALL Existing Meshes in ALL Scenes & Prefabs" to Initialize tab - recreates BloxelLevels and BloxelJoists after changing BloxelTextures
+ - fixed broken geometry generated when bloxels with noise would get clipped (ATTENTION: for this fix to work all bloxel templates have to be updated in the Initialize menu)
+
+version 0.7.4
+ - added "Generate Collider" option to BloxelTextures; OFF means no collision geometry for bloxels with this texture will get generated
+ - lowered CPU usage on idle
+
+version 0.7.3
+ - API update for Unity 2021.2
+ - added hotkey rotation via Tab to TEXER (only if Change Rotation Absolute is activated)
+ - improved centering of texture buttons in Build menu when there's a scrollbar
+ - fixed error when trying to build the project as standalone
+ - added various color settings in Initialize menu
+ - added "Show Internals" option in ProjectSettings (only for debugging purposes)
+ - fixed quantized placing of JOISTS via shift key
+ - removed parent option of JOISTS, they're now always part of a BloxelLevel
+ - improved JOISTS, they're now usable in prefabs
+
+version 0.7.2
+ - added warning in console if there are double IDs for templates or textures
+ - fixed unwanted bloxel mesh generation inside an open prefab
+ - fixed tools window in Scene view grabbing focus and mucking up the hotkeys
+
+version 0.7.1
+ - fixed per pixel transparency in texture atlasses
+ - changed padding of textures in atlas back to clamp instead of repeat (trying to fix mipmapping problems in the distance)
+ - fixed faulty behaviour of individual BloxelLevels when changing BloxelTextures
+
+version 0.7
+ - fixed bug with TEXER not rotating texture when "Change Image" was set to false
+ - fixed uv sets set with TEXER not getting serialized correctly
+ - fixed faulty behaviour of Helpers functions in combination with prefabs
+
+version 0.6
+ - add support for composite bloxel textures (with different textures for top, bottom, sides and inner)
+ - remove hideFlags for chunks (because of lightmapping)
+ - removed shaders
+
+version 0.5
+ - added support for prefabs
+ - add tags and dynamic variables to bloxel textures
+ - support for light maps
+ - now supporting more than one texture atlas per material, for normal maps and other secondary maps
+
+version 0.4
+ - remove "Bloxels" layer and "BloxelChunk" tag
+ - flags and neighbourflags moved from Type to Texture
+ - support transparent bloxels now
+ - add noise strength and scale to Bloxel Textures
+ - collisions of bloxels are now different for editor and game
+
+version 0.3
+ - add joists
+ - cuboider hollow
+ - nicer UI
+ - better hover marker
+ - tex importer better
+ - some new blocks

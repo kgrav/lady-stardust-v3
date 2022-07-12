@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53b1a7991b95f0949876a91d3c984202, type: 3}
+  m_Name: LandState
+  m_EditorClassIdentifier: 
+  AnimationState: 
+  AnimationTransitionTime: 0
+  AnimationTransitionOffset: 0
+  pronoun: 10
+  MaxTime: 3
+  FaceOnEnter: {fileID: 11400000, guid: 85cd6b511f9ea574c93b9f4e8ee57115, type: 2}
+  FXFrames: []
+  onEnter:
+  - type: 0
+    local: 1
+    frame: 0
+    label: jump
+    activitySetting: 0
+    position: {x: 0, y: 0, z: 0}
+    direction: {x: 0, y: 0, z: 0}
+  - type: 2
+    local: 0
+    frame: 0
+    label: land
+    activitySetting: 0
+    position: {x: 0, y: 0, z: 0}
+    direction: {x: 0, y: 0, z: 0}
+  onExit: []
+  MaxFrame: 0
+  LandingLag: 0
+  LandingFriction: 0.1

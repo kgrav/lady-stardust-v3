@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6943ed07a8d1e941b6fadc1c1abe348, type: 3}
+  m_Name: Atlas_Normal
+  m_EditorClassIdentifier: 
+  id: NORMAL_INTERIOR
+  material: {fileID: 2100000, guid: 0d25bcfda1976de4bb706d18ff72ebc0, type: 2}
+  properties:
+  - _MainTex
+  - _NormalMap
+  atlasCompression: 2
+  atlasFilterMode: 0
+  textures:
+  - {fileID: 11400000, guid: e44d34730ebfc434a8d49b69297dbc04, type: 2}
+  - {fileID: 11400000, guid: 80b8604c7732b4042b942dc99da6c9d1, type: 2}
+  - {fileID: 11400000, guid: fccfcbbf38082014b9ea8e8c0aaa81b9, type: 2}
+  - {fileID: 11400000, guid: 10a0415c940dcff4aa6d17aeb8b43457, type: 2}
+  - {fileID: 11400000, guid: 08163a20af6e5d049b725ebf844d4e3a, type: 2}

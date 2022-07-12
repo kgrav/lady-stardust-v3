@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2149a9a878f01bd41aaea770ec25c543, type: 3}
+  m_Name: Aerial Attack
+  m_EditorClassIdentifier: 
+  AnimationState: Idle
+  AnimationTransitionTime: 0
+  AnimationTransitionOffset: 0
+  MaxTime: 0
+  VFX: []
+  BodyVFX: []
+  SFX: []
+  LightAttack: {fileID: 11400000, guid: a180f5978f4cae740a5e87726b7f5cc5, type: 2}
+  HeavyAttack: {fileID: 11400000, guid: a953f6c523440f24c85f9a04b78d7a36, type: 2}

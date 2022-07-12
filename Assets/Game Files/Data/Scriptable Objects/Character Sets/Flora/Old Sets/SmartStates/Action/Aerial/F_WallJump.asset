@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe4bd54685c93bc45bbf4202846dd93c, type: 3}
+  m_Name: F_WallJump
+  m_EditorClassIdentifier: 
+  AnimationState: wallkick
+  AnimationTransitionTime: 0
+  AnimationTransitionOffset: 0
+  pronoun: 11
+  MaxTime: 15
+  FaceOnEnter: {fileID: 0}
+  FXFrames:
+  - type: 2
+    local: 0
+    frame: 3
+    label: jump
+    activitySetting: 0
+    position: {x: 0, y: 0, z: 0}
+    direction: {x: 0, y: 0, z: 0}
+  onEnter: []
+  onExit: []
+  JumpFrame: 3
+  JumpSquatFriction: 0
+  JumpPower: 8.15
+  JumpScalableForwardSpeed: 1
+  jumpCapsuleResume: 10.1
+  FallVelocity: 1
+  MotionCurve:
+    ForwardCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    LateralCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    VerticalCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    YRotationCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    GravityModCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0.077859394
+        outSlope: 0.077859394
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 30
+        value: 3.3357818
+        inSlope: 0.000110952635
+        outSlope: 0.000110952635
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.92178166
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    FreeMoveCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    RotationTrackingCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    DistanceTrackingCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    DistanceRangeCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TurnAroundTime: 0
+    TrackingResistance: 0
+  StateTransitions:
+  - MaxTime: 15
+    TransitionWindow: {x: 3, y: 15}
+    TransitionType: 2
+    TransitionState: {fileID: 11400000, guid: a180f5978f4cae740a5e87726b7f5cc5, type: 2}

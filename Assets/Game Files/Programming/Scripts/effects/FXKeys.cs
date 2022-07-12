@@ -1,0 +1,1 @@
+public enum FXKEY_FLORA {SWORDTOGGLE}

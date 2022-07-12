@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7275c38047e654e9fe6817dc5830f2, type: 3}
+  m_Name: Flora
+  m_EditorClassIdentifier: 
+  list:
+  - label: footstep1
+    clip: {fileID: 8300000, guid: 4db90e94826993b449b84de68e436441, type: 3}
+  - label: footstep2
+    clip: {fileID: 8300000, guid: b27513f9571790c4da77f5a41e0111f9, type: 3}
+  - label: ensword
+    clip: {fileID: 8300000, guid: e05285818ef2382479ffbe8427e7d556, type: 3}
+  - label: exsword
+    clip: {fileID: 8300000, guid: 14447f4893ffb8541b0cfc6b0640727b, type: 3}
+  - label: jump
+    clip: {fileID: 8300000, guid: 2b07c2a2ef2ed3f4e9bfab265a420b46, type: 3}
+  - label: slide
+    clip: {fileID: 8300000, guid: 92d2f0f3c1771b0429233c3d78790e89, type: 3}
+  - label: atk1
+    clip: {fileID: 8300000, guid: d223601520f15db40b191a6ec4a8a99f, type: 3}
+  - label: atk2
+    clip: {fileID: 8300000, guid: 53953dda96335244abf2b1fd29331579, type: 3}
+  - label: atk3
+    clip: {fileID: 8300000, guid: 9524475ed12ef8c48bbb47b28ae92102, type: 3}
+  - label: land
+    clip: {fileID: 8300000, guid: 9b84e2fa4e598dc4eb5351d9fd39ea68, type: 3}
