@@ -114,7 +114,6 @@ public class WallJumpState : SmartState
 
 
         float yVel = Vector3.Project(smartObject.Motor.BaseVelocity, smartObject.Motor.CharacterUp).y;
-        Debug.Log((yVel < FallVelocity) + ", " + (smartObject.CurrentFrame > JumpFrame) + ", " + (smartObject.CurrentAirTime > 6) + ", " +(smartObject.CurrentFrame > MaxTime));
         if ((yVel < FallVelocity && smartObject.CurrentFrame > JumpFrame && smartObject.CurrentAirTime > 6) || smartObject.CurrentFrame > MaxTime)
         {
             smartObject.ActionStateMachine.ChangeActionState(ActionStates.Idle);

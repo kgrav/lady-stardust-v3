@@ -130,6 +130,7 @@ public class LocomotionAerialState : LocomotionState
         if (Vector3.Angle(hitNormal, Vector3.up) > 85 && Vector3.Angle(hitNormal, Vector3.down) > 85)
         {
             float wallHitSpeed = NVMath.Planarized(smartObject.Velocity).magnitude;
+            Debug.Log(wallHitSpeed);
             if(wallHitSpeed > wallJumpSpeedCutoff && wallHitSpeed < wallHitSpeedCutoff && smartObject.ActionStateMachine.CurrentActionEnum != ActionStates.Hurt&& smartObject.ActionStateMachine.CurrentActionEnum != ActionStates.Knockback && smartObject.WallJumpTime ==0){
                 WorldAudioManager.PlayClipInWorld(wallHitSound,hitPoint);
                 GlobalEffectsTable.TriggerEffect(wallHitEffect, hitPoint, hitNormal);

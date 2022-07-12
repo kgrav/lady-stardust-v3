@@ -28,10 +28,11 @@ public class SmartState : ScriptableObject
 				for(int i = 0; i < _frameTable.Length; ++i){
 					_frameTable[i] = new List<FXFrame>();
 				}
+                if(FXFrames!=null){
 				foreach(FXFrame fx in FXFrames){
 					if(fx.frame < _frameTable.Length)
 					_frameTable[fx.frame].Add(fx);
-				}
+				}}
 				frameTableInit=true;
 			}
 			return _frameTable;
